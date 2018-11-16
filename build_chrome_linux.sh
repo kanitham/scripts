@@ -8,3 +8,11 @@ sudo apt-get install --fix-broken
 sudo apt-get install idle-python3.7
 #To install add-apt-repository
 sudo apt-get install software-properties-common
+# To install atom
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get install atom
+# To install java8
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
