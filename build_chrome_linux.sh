@@ -1,5 +1,5 @@
 # To install linux flavor
-sudo sh crouton -r trusty -t xfce,extension,xorg,xiwi
+sudo sh crouton -r xenial -t xfce,extension,xorg,xiwi
 # To install git ( and open ssh )
 sudo apt-get install git
 # To fix the missing packages
