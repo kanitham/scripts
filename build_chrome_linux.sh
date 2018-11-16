@@ -1,7 +1,7 @@
-# To install git ( and open ssh )
-sudo apt-get install git
 # To install linux flavor
 sudo sh crouton -r trusty -t xfce,extension,xorg,xiwi
+# To install git ( and open ssh )
+sudo apt-get install git
 # To fix the missing packages
 sudo apt-get install --fix-broken
 # To install C++ along with build essential
