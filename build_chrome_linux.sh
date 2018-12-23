@@ -1,5 +1,12 @@
 # To install linux flavor
 sudo sh crouton -r xenial -t xfce,extension,xorg,xiwi
+
+#sudo sh ~/Downloads/crouton -e -r -t touch,unity-desktop,xiwi
+#sudo sh -e crouton -r bionic -t touch,xfce,extension,xorg,xiwi -p /media/removable/Bionic
+#sudo sh -e crouton -r unity -t touch,unity-desktop,xorg,xiwi -p /media/removable/Bionic
+#sudo sh -e crouton -r Bionic -t touch,xfce-desktop,xorg,xiwi -p /media/removable/Bionic
+#sudo sh /media/removable/Bionic/bin/startxfce4
+
 # To install git ( and open ssh )
 sudo apt-get install git
 # To fix the missing packages
