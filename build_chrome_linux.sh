@@ -31,3 +31,11 @@ sudo apt -y install code
 # To install C++ 
 sudo apt install g++
 sudo apt install build-essential
+
+#How do I install XAMPP?
+#Choose your flavor for your linux OS, the 32-bit or 64-bit version.
+#Change the permissions to the installer
+#chmod 755 xampp-linux-*-installer.run
+#Run the installer
+#sudo ./xampp-linux-*-installer.run
+#XAMPP is now installed below the /opt/lampp directory.
