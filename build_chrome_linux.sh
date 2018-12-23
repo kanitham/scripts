@@ -21,3 +21,6 @@ sudo add-apt-repository -y "deb [arch=amd64] https://packages.microsoft.com/repo
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
 sudo apt update
 sudo apt -y install code
+# To install C++ 
+sudo apt install g++
+sudo apt install build-essential
