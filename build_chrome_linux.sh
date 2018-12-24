@@ -39,3 +39,6 @@ sudo apt install build-essential
 #Run the installer
 #sudo ./xampp-linux-*-installer.run
 #XAMPP is now installed below the /opt/lampp directory.
+
+#To take backup of current chroot into harddisc
+sudo edit-chroot -f '/var/host/media/removable/Seagate Backup Plus Drive/backups' -b bionic
