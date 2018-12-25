@@ -9,6 +9,7 @@ sudo sh crouton -r xenial -t xfce,extension,xorg,xiwi
 
 # To install git ( and open ssh )
 sudo apt-get install git
+#https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 # To fix the missing packages
 sudo apt-get install --fix-broken
 # To install C++ along with build essential
@@ -44,3 +45,4 @@ sudo apt install build-essential
 sudo edit-chroot -f '/var/host/media/removable/Seagate Backup Plus Drive/backups' -b bionic
 #To run atom editor in crouton
 #xiwi -T atom -f .
+#https://github.com/dnschneid/crouton/wiki/crouton-in-a-Chromium-OS-window-(xiwi)
