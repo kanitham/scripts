@@ -49,3 +49,9 @@ sudo edit-chroot -f '/var/host/media/removable/Seagate Backup Plus Drive/backups
 
 #Tomcat application installation and setup
 https://www.digitalocean.com/community/tutorials/install-tomcat-9-ubuntu-1804
+
+#Dbeaver setup
+cd ~/Downloads
+wget https://dbeaver.io/files/dbeaver-ce-latest-linux.gtk.x86_64.tar.gz
+tar zxvf dbeaver-ce-latest-linux.gtk.x86_64.tar.gz
+./dbeaver/dbeaver
