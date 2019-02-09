@@ -55,3 +55,19 @@ cd ~/Downloads
 wget https://dbeaver.io/files/dbeaver-ce-latest-linux.gtk.x86_64.tar.gz
 tar zxvf dbeaver-ce-latest-linux.gtk.x86_64.tar.gz
 ./dbeaver/dbeaver
+
+
+Remix OS for PC ›
+RemixOS has strange messages on install and won't boot
+2 posts by 2 authors 
+troubleshooting
+ 
+
+John Rose	
+2/2/17
+I get 2 strange messages on installation as a VM in VirtualBox after choosing Resident Mode: ‘intel_rapl: no valid rapl domains found in package.. cannot detect package: System may fail to bootup. To continue press Enter’ and ‘Not enough space to create data partition. Unable to use persistent mode. To continue press enter.’. I pressed Enter in reply to both messages. 
+Also, when I try to boot into RemixOS after installation completes, the RemixOS logo keeps on flashing and nothing more happens.
+I've used the instructions at https://technohackerblog.blogspot.co.uk/2016/03/how-to-install-remix-os-on-virtualbox.html 
+That involved: Now start the VM, choose Resident Mode and press Tab. Remove the "DATA= CREATE_DATA_IMG=1" part and type "INSTALL=1" (no quotes).
+In VirtualBox I've changed settings: setting the PAE/NX option, setting 3D Acceleration, changing Processors to Max Green (i.e. 2), changing Video Memory to Max Green (i.e. 128Mb). I have 2GB Memory & 16GB Storage in VirtualBox.
+
