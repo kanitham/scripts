@@ -61,7 +61,10 @@ Remix OS for PC ›
 RemixOS has strange messages on install and won't boot
 2 posts by 2 authors 
 troubleshooting
- 
+
+
+#Convert .img file to .vdi file for VBOX
+VBoxManage convertdd input.img output.vdi
 
 John Rose	
 2/2/17
