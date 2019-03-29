@@ -1,6 +1,31 @@
 # To install linux flavor
 sudo sh crouton -r xenial -t xfce,extension,xorg,xiwi
 
+#To delete the existing crouton
+#chronos@localhost / $ sudo delete-chroot xenial
+#Delete /mnt/stateful_partition/crouton/chroots/xenial? [a/y/N] y
+#Finished deleting /mnt/stateful_partition/crouton/chroots/xenial
+
+#chronos@localhost ~/Downloads $ sudo umount /dev/sda16
+#chronos@localhost ~/Downloads $ sudo mkfs.ext4 -L Bionic /dev/sda16
+#mke2fs 1.44.1 (24-Mar-2018)
+#/dev/sda16 contains a vfat file system labelled 'Bionic'
+#Proceed anyway? (y,N) y
+#/dev/sda16 alignment is offset by 2560 bytes.
+#This may result in very poor performance, (re)-partitioning suggested.
+#Creating filesystem with 6536193 4k blocks and 1635200 inodes
+#Filesystem UUID: 854dd2af-32ef-4d42-937d-1b82391fe690
+#Superblock backups stored on blocks: 
+        32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+        4096000
+
+#Allocating group tables: done                            
+#Writing inode tables: done                            
+#Creating journal (32768 blocks): done
+#Writing superblocks and filesystem accounting information: done  
+
+
+
 #sudo sh ~/Downloads/crouton -e -r -t touch,unity-desktop,xiwi
 #sudo sh -e crouton -r bionic -t touch,xfce,extension,xorg,xiwi -p /media/removable/Bionic
 #sudo sh -e crouton -r unity -t touch,unity-desktop,xorg,xiwi -p /media/removable/Bionic
