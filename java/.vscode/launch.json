@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StringRegEx",
+            "request": "launch",
+            "mainClass": "StringRegEx",
+            "projectName": "java_e205e48e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LamdaExp",
+            "request": "launch",
+            "mainClass": "LamdaExp",
+            "projectName": "java_e205e48e"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BoxUnbox",
             "request": "launch",
             "mainClass": "BoxUnbox",
