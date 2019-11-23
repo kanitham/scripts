@@ -1,0 +1,38 @@
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:4:24: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+         void sftp(const& char* str) = 0;
+                        ^
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:4:26: error: expected ',' or '...' before 'char'
+         void sftp(const& char* str) = 0;
+                          ^~~~
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:4:14: error: initializer specified for non-virtual method 'void sstp::sftp(const int&)'
+         void sftp(const& char* str) = 0;
+              ^~~~
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:15:2: error: expected ';' after class definition
+ }
+  ^
+  ;
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp: In member function 'void connect::sftp(char*)':
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:10:12: error: 'int sstp::instance' is private within this context
+         if(instance <= 10) {
+            ^~~~~~~~
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:2:20: note: declared private here
+         static int instance;
+                    ^~~~~~~~
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:10:12: error: 'int sstp::instance' is private within this context
+         if(instance <= 10) {
+            ^~~~~~~~
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:2:20: note: declared private here
+         static int instance;
+                    ^~~~~~~~
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:11:13: error: 'int sstp::instance' is private within this context
+             instance++;
+             ^~~~~~~~
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:2:20: note: declared private here
+         static int instance;
+                    ^~~~~~~~
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:11:13: error: 'int sstp::instance' is private within this context
+             instance++;
+             ^~~~~~~~
+/home/rajo/Documents/mycode/scripts/c++/sstp.cpp:2:20: note: declared private here
+         static int instance;
+                    ^~~~~~~~

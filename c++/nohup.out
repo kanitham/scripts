@@ -1,0 +1,36 @@
+
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+
+X.Org X Server 1.19.6
+Release Date: 2017-12-20
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.4.0-138-generic x86_64 Ubuntu
+Current Operating System: Linux localhost 3.18.0-18747-gdea8d908bd77 #1 SMP PREEMPT Sun Mar 3 22:37:23 PST 2019 x86_64
+Kernel command line: cros_secure console= loglevel=7 init=/sbin/init cros_secure oops=panic panic=-1 root=/dev/dm-0 rootwait ro dm_verity.error_behavior=3 dm_verity.max_bios=-1 dm_verity.dev_wait=1 dm="1 vroot none ro 1,0 3686400 verity payload=PARTUUID=8bef9d2a-b916-1441-822b-141418d00b16/PARTNROFF=1 hashtree=PARTUUID=8bef9d2a-b916-1441-822b-141418d00b16/PARTNROFF=1 hashstart=3686400 alg=sha1 root_hexdigest=c48a782391217d14d27b7bb1a6f1f4462a4fd268 salt=fd9760cc911b1397dd2ff32a0619def441243640adf7f7e318e03b319b0a57f5" noinitrd vt.global_cursor_default=0 kern_guid=8bef9d2a-b916-1441-822b-141418d00b16 add_efi_memmap boot=local noresume noswap i915.modeset=1 tpm_tis.force=1 tpm_tis.interrupts=0 nmi_watchdog=panic,lapic disablevmx=off  
+Build Date: 25 October 2018  04:11:27PM
+xorg-server 2:1.19.6-1ubuntu4.2 (For technical support please see http://www.ubuntu.com/support) 
+Current version of pixman: 0.34.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(++) Log file: "/tmp/Xorg.crouton.1.log", Time: Fri Mar 15 08:57:39 2019
+(++) Using config file: "/etc/X11/xorg-dummy.conf"
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+/usr/bin/xinit: XFree86_VT property unexpectedly has 0 items instead of 1
+crouton: version 1-20181001133934~master:38012fdf
+release: bionic
+architecture: amd64
+xmethod: xorg
+targets: touch,xfce-desktop,xorg,xiwi
+host: version 11316.165.0 (Official Build) stable-channel setzer 
+kernel: Linux localhost 3.18.0-18747-gdea8d908bd77 #1 SMP PREEMPT Sun Mar 3 22:37:23 PST 2019 x86_64 x86_64 x86_64 GNU/Linux
+freon: yes
+Error: not connected.
+Cannot connect to extension, retrying...
+Cannot open /sys/class/tty/tty0/active: No such file or directory
+Connected to extension, launched crouton in a window.
+03/15/19 08:58:29 - ERROR: No output found at destination coordinates, centering floating window on current ws
+03/15/19 08:59:54 - ERROR: No output found at destination coordinates, centering floating window on current ws
+03/15/19 09:03:20 - ERROR: No output found at destination coordinates, centering floating window on current ws
